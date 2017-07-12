@@ -15,5 +15,6 @@ int main(){
     texto[len-1]='\0';
     printf("****************************************\n\n");
     printf("%s", texto);
+    free(texto);
     return 0;
 }
